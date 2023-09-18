@@ -1,0 +1,25 @@
+h2{
+    color: rebeccapurple;
+}
+
+.gold{
+    color: darkgoldenrod;
+    background-color: azure;
+}
+
+.greenGradient {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    color: black;
+}
+.box{
+    width: 400px;
+    border: 10px solid black;
+}
+
+.textAlign{
+    text-align: center;
+}
+
+.font{
+    font-style: oblique;
+}
