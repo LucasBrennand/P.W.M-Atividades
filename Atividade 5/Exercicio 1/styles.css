@@ -1,0 +1,12 @@
+.h1{
+    color: red;
+    text-align: right;
+
+}
+
+.backgroundImg{
+    background-image: url(https://media2.spaceref.com/wp-content/uploads/2022/08/23095052/smdtownhall.jpg);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 400px;
+}
