@@ -1,0 +1,15 @@
+p{
+    font-family: Arial;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+p a{
+    font-family: "Times New Roman";
+    text-decoration: none;
+    color: green;
+}
+
+p:not(:has(a)){
+    text-decoration: underline;
+}
