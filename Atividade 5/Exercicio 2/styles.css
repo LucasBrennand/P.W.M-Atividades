@@ -1,0 +1,17 @@
+.fundoVermelho{
+    margin: auto;
+    background: red;
+    width: 700px;
+    height: 530px;
+    padding: 0px;
+
+}
+
+.fundoVerde{
+    margin: auto;
+    background: lawngreen;
+    width: 700px;
+    height: 530px;
+    padding: 25px;
+    text-align: center;
+}
