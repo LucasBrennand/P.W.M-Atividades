@@ -1,15 +1,27 @@
-p{
-    font-family: Arial;
+.underline{
+    font-family: Arial, serif;
     font-size: 24px;
     text-decoration: underline;
 }
 
-p a{
-    font-family: "Times New Roman";
+
+
+.hyperLink{
+    font-family: "Times New Roman", serif;
     text-decoration: none;
-    color: green;
+    font-size: 28px;
+    color: blue;
 }
 
-p:not(:has(a)){
-    text-decoration: underline;
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
 }
