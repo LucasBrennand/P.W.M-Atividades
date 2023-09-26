@@ -1,28 +1,74 @@
+body{
+    background: #03302e;
+}
 
 .container{
-    background-color: navy;
+    background-color: #19194a;
     border: 5px solid black;
-    height: 275px;
-    width: 500px;
+    height: 500px;
+    width: 800px;
     margin: auto;
-    text-align: center;
-    display: flex;
 }
 
-.input{
-    display: flow;
-    text-align: center;
+.containerBox{
+    border: 5px solid #226657;
+    margin: auto;
+    height: 490px;
+    width: 790px;
 }
 
-.box{
+.inputBox{
+    margin: auto;
+    display: block;
+    width: 250px;
+}
+
+input{
+    background: black;
     color: white;
-    width: 130px;
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    font-size: math;
+    font-family: "Arial Black", serif;
+}
+
+button{
+    background: cyan;
+    color: black;
+    font-family: "Lucida Bright", serif;
+    margin: 5px;
+    width: 57px;
+    height: 25px;
+    text-align: center;
+}
+
+.dice{
+    margin: auto;
+    display: flex;
+    width: 450px;
+
+}
+
+.diceBox{
+    color: white;
+    background-color: black;
+    width: 100px;
     border: 5px solid white;
     padding: 50px;
     margin: 10px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     font-size: 24px;
 }
 
+.resultado{
+    color: white;
+    background-color: darkslategray;
+    width: 100px;
+    border: 5px solid white;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    font-size: 22px;
+}

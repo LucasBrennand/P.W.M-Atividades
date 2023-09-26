@@ -6,17 +6,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<label class="input">
-    <input size="23" type="number" id="input" placeholder="Digite um número de 1 a 6"> <button id="rodar">Rodar</button>
-    <p id="resultado"></p>
-    <p id="giro"></p>
-</label>
-<br>
+
 
 <div class="container">
-    <div class="box">Dado 1</div>
-    <div class="box">Dado 2</div>
+    <div class="containerBox">
+    <div class="inputBox">
+        <label>
+        <input type="number" id="input" placeholder="Digite um número de 1 a 6"> <button id="rodar">Rodar</button>
+        <p id="giro"></p>
+        </label>
+    </div>
+
+        <div class="dice">
+    <div class="diceBox" id="diceBox1">Dado 1</div>
+    <div class="diceBox" id="diceBox2">Dado 2</div>
+        </div>
+
+        <div class="resultado" id="resultado">Output</div>
 </div>
-<script src="JogoDados.js"></script>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
